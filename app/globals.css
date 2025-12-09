@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+* {
+  border-color: hsl(217.2 32.6% 17.5%);
+}
+
+body {
+  background: linear-gradient(to bottom right, #111827, #1f2937, #000000);
+  color: hsl(210 40% 98%);
+  font-feature-settings: "rlig" 1, "calt" 1;
+  min-height: 100vh;
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px rgba(0, 168, 232, 0.5);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(50, 205, 50, 0.5);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 10px rgba(0, 168, 232, 0.8);
+}
+
+.text-glow-green {
+  text-shadow: 0 0 10px rgba(50, 205, 50, 0.8);
+}
